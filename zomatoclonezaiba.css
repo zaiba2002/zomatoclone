@@ -1,4 +1,334 @@
-body{
-    background-color:black;
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    
+}
+*:focus{
+    border: none;
+    outline: none;
+}
+a{
+    color: unset;
+}
+header{
+     background-image: url('https://asset20.ckassets.com/blog/wp-content/uploads/sites/5/2019/11/5-11.jpg');
+     background-position: center;
+     background-size: cover;
+     height: 60vh;
+}
+footer{
+
+}
+/* Navbar styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 25px 0px;
+    width: 90%;
+    margin: 0px auto;
+}
+nav .nav-item{
+    color:white;
+    margin:0px 10px
+}
+nav div.container{
+    display: flex;
+}
+nav div.nav-item.app{
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+nav div.nav-item{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+header div.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: yellowgreen;
+}
+header img.logo{
+    font-size: 4rem;
+    color: white;
+    font-weight: 40;
+    width: 30%;
+    height: 30%;
+}
+header h1{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 400;
+}
+/* Header content */
+header div.search-box{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0px auto;
+}
+header div.search-box div.select i {
+     color: #f57082;
+}
+header div.search-box div.select{
+    width: 30%;
+}
+header div.search-box div.input{
+    color:#8282829b;
+}
+header div.search-box div.separator{
+    height: 70%;
+    background-color: red;
+    width: 2px;
+    align-items: center;
+}
+header div.search-box div.input{
+    flex-grow: 80;
+    width:50%;
+}
+header div.search-box div.input input{
+    width: 100%;
+}
+div.search-box div{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 0px 50px;
+}
+header div.search-box i{
+    margin: 10px;
+}
+
+
+
+
+/* footer */
+footer{
+    background-color:whitesmoke;
+    background-size: cover;
+    height: 45vh;
+}
+footer img.logo2{
+    width: 10%;
+    height: 10%;
+    left: 20px;
+    margin-top: 30px;
+}
+footer div.name{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+footer div.space{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+footer div.company{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    list-style-type: none;
+}
+footer div.ForFoodies{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    list-style-type: none;
+}
+footer div.type{
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+}
+footer div.ForRestuarants{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    list-style-type: none;
+}
+footer div.ForYou{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+    list-style-type: none;
+}
+footer div.SocialLinks{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color:black;
+}
+footer div.SocialLinks div.links a{
+    display: inline;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer div.SocialLinks div.apps img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+    height: 50px;
+}
+footer div.name div.space div.country i  {
+   width: 30px;
+   height: 30px;
+   box-sizing: border-box;
+}
+footer div.name div.space div.language i{
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-style: inset;
+    border-width: 1px;
+    color: black;
+  }
+footer p{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+/* mid section */
+div.popular h1{
+    margin-left: 500px;
+    margin-right: 400px;
+    background-color: white;
+    margin-top: 20px;
+}
+div.popular div.places{
+    width: 15%;
+    margin: 0px auto;
+    margin-left:400px;
+    margin-top: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    flex-grow: 80%;
+    padding: 25px 15px;
+}
+div.popular{
+    width: 100%;
+    height: 30vh;
+}
+section.app{
+    height: 300px;
+    background-color:#FEFBF6;    
+}
+section.app div.container{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section.app div.container img{
+    max-height: 300px;
+    display: block;
+} 
+section.app div.download img{
+    width: 90px;
+    height: 50px;
+}
+section.app div.input input{
+    flex-grow: 70;
+    background-color: white;
+    border: 1px solid #CFCFCF;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 100%;
+    margin:0px 10px 0px 0px;
+}
+section.app div.input button{
+    flex-grow: 30;
+    background-color: palevioletred;
+    border:1px solid #CFCFCF ;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    border-radius: 5px;
+    height: 100%;
+    margin: 0px 10px 0px 10px;
+}
+section.app div.input{
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    height: 50px;
+    background-color:#FEFBF6;
+}
+section.app div.form div.download{
+    margin: 20px 0px;
+    font-weight: 100;
+    color: grey;
+}
+section.app  div.form  div.download div{
+    margin: 5px;
+    display: flex;
+}
+section.app div.form div.download img{
+    max-width: 150px;
+    display: inline-block;
+    margin-right: 5px;
+}
+section.options{
+    height: 50vh;
+    width: 80vw;
+    background-color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: inline;
+}
+section.options div.container{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+section.options div.container h2{
+    font-size: 2rem;
+}
+section.options div.container h3{
+    font: 1.2rem;
+}
+section.options div.container div{
+    margin-top: 40px;
+}
+section.options div.container div ul{
+    margin-top: 20px;
+    padding: 20px;
+    display :flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section.options div.container div ul li{
+    margin: 3px 10px;
 
 }
